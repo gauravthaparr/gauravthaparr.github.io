@@ -54,7 +54,9 @@ a b.light-color:hover{ text-decoration: none; color: #E45F74; }
 
 b{ font-weight: 500; }
 
-img{ width: 100%; }
+img {
+	margin-top: 10em;
+  }
 
 li{ list-style: none; display: inline-block; }
 
@@ -86,9 +88,12 @@ b.light-color{ color: #444; }
 
 .display-table{ display: table; height: 100%; width: 100%; }
 
-.display-table-cell{ display: table-cell; vertical-align: middle; }
+.display-table-cell{ display: table-cell; }
 
+.text-data{
+		margin-top: 10em;
 
+}
 
 ::-webkit-input-placeholder { font-size: .9em; letter-spacing: 1px; }
 
